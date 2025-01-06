@@ -1,0 +1,63 @@
+/* src/styles/App.css */
+
+/* Reset or global styles (optional) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make page take full vertical space */
+  font-family: "Arial, sans-serif"; /* or your preferred font */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c3e50; /* A dark background */
+  padding: 1rem 2rem;
+}
+
+.nav-logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  flex: 1; /* Take up remaining vertical space so footer is at the bottom */
+  padding: 2rem;
+  background-color: #f5f5f5; /* Light background */
+}
+
+/* Footer */
+.footer {
+  background-color: #2c3e50;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #fff;
+}
